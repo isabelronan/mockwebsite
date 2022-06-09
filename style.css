@@ -79,15 +79,35 @@ h2 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    text-align: center;
+    margin: 36px;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 132px;
+    height: 132px;
     border-style: solid;
     border-width: medium;
     border-radius: 10px;
-    border-color: #3882F6;
+    border-color: #3882F6; 
+}
 
+.random-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
 
+.smaller-random-information {
+    width: 132px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.text {
+    text-align: center;
 }
