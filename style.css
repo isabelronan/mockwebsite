@@ -40,7 +40,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    margin: 32px 0px;
+    margin: 72px 0px;
 }
 
 .to-the-left,
@@ -51,11 +51,11 @@ a {
 h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     margin: 0px;
 }
 
-p {
+.main p {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -77,10 +77,10 @@ img {
 
 h2 {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    margin: 36px;
+    margin-bottom: 36px;
 }
 
 .box {
@@ -97,6 +97,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 46px;
+    margin-bottom: 36px;
 }
 
 .smaller-random-information {
@@ -110,4 +111,26 @@ h2 {
 
 .text {
     text-align: center;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 72px;
+}
+
+.quote,
+.quote-author {
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
