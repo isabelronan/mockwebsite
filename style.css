@@ -60,7 +60,7 @@ h1 {
     font-size: 18px;
 }
 
-button {
+.main button {
     background-color: #3882F6;
     border-radius: 10px;
     border-style: none;
@@ -133,4 +133,43 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+.section-four {
+    background-color: #3882F6;
+    margin: 56px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 16px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.section-four p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+.left-stuff {
+    margin: 24px 0px;
+}
+
+.section-four button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: mediuim;
+    border-radius: 10px;
+    padding: 8px 32px;  
 }
